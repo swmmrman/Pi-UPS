@@ -30,6 +30,8 @@ At this point reboot your RaspberryPi.  If all goes well /dev/rtc0 and /dev/12c-
 crw-rw---- 1 root i2c 89, 1 Jan  1 01:01 /dev/i2c-1 
 ```
 
+* install pi-ina219 'sudo pip install pi-ina219'
+
 If all checks out.  Run from a terminal with 
 ```bash
 python main.py
@@ -45,5 +47,4 @@ Energy:         0.0017ah
 Time:           00:00:9.2
 ```
 
-* install pi-ina219 'sudo pip install pi-ina219'
 
