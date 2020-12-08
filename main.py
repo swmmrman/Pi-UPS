@@ -24,17 +24,19 @@ try:
         rs = rs + 0.25
         if rs == 60:
             rs = 0
-        rm = rm + 1
+            rm = rm + 1
         if rm == 60:
             rm = 0
-        rh = rh + 1
-        print(F"\rWatts:\t\t{watts:.4f}w\n"
-              F"Voltage:\t{volts:.4f}v\n"
-              F"Current:\t{amps:.4f}a\n"
-              F"WH:\t\t{wh:.4f}wh\n"
-              F"Energy:\t\t{ah:.4f}ah\n"
-              F"Time:\t\t{rh:02d}:{rm:02d}:{rs:02.1f}  ",
-              end="")
+            rh = rh + 1
+        print(
+            F"\rWatts:\t\t{watts:.4f}w\n"
+            F"Voltage:\t{volts:.4f}v\n"
+            F"Current:\t{amps:.4f}a\n"
+            F"WH:\t\t{wh:.4f}wh\n"
+            F"Energy:\t\t{ah:.4f}ah\n"
+            F"Time:\t\t{rh:02d}:{rm:02d}:{rs:02.1f}  ",
+            end=""
+        )
         sleep(0.25)
         print("\033[A"*6)
 except KeyboardInterrupt:
