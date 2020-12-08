@@ -39,3 +39,5 @@ try:
         print("\033[A"*6)
 except KeyboardInterrupt:
     print("\n")
+except DeviceRangeError as e:
+    print(F"Range Error:\n{e}")
