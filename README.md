@@ -5,8 +5,12 @@ This is a basic monitor built around the 52Pi UPS Module for RaspberryPi.  Curre
 As most guides do not cover getting i2c enabled, those steps will be included here as well.  You may not need these steps in other operating systems.
 
 ## Requirements
-### In progress
 * A 52Pi EP-0118
 * A RaspberryPi 4
 * Python3
+* pi-ina219 python module
+* 18650 battery or batteries
+* Capacity of batteries
+
+## Setup
 
