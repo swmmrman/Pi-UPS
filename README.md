@@ -5,7 +5,7 @@ This is a basic monitor built around the 52Pi UPS Module for RaspberryPi.\
 Currently tested and working on
 Computers:
 * RaspberryPi4 8GB
-* RaspberryPi4 2GB
+* RaspberryPi4 2GB\
 OSes:
 * Manjaro Linux
 * Raspbian 10 
